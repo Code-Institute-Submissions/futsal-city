@@ -51,6 +51,19 @@ section {
     }
 }
 /*------------------------------------Navbar*/
+.navbar {
+    position: absolute;
+    top: -102px;
+    left: 90%;
+    
+}
+@media (max-width: 765px) {
+    .navbar {
+    top: 2.5px;
+    left: 42.5%;    
+    }
+}
+
 
 
 /*------------------------------------Next Fixture*/
