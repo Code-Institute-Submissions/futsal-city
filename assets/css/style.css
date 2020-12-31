@@ -9,11 +9,41 @@
 
 /*------------------------------------Special paddings/margins/text*/
 
-
-
+/*------------------------------------Header*/
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+  .sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+  }
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+/*------------------------------------Help from https://stackoverflow.com/questions/15685666/changing-image-sizes-proportionally-using-css*/
+.logo-container {
+    width: 160px;
+    height: 160px;
+    padding: 10px;
+}
+@media (max-width: 765px) {
+    .logo-container {
+        background: url(assets/images/football-logo-background_1195-244.jpg);
+        display: block;
+        padding-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+}
+@media (max-width: 765px) {
+    .website-header {
+        height: 225px;
+    }
+}
 /*------------------------------------Navbar*/
-
-
 
 /*------------------------------------Next Fixture*/
 
