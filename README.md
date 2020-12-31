@@ -110,7 +110,7 @@ Add another page where supporters can buy tickets for upcoming games. Adding thi
 
 
 # Wireframes: 
-assets/images/milestone.project.wireframes.pdf
+assets/wireframes/milestone.project.wireframes.pdf
 
 # Images
 1. Football Logo Image by <a href="https://www.freepik.com/vectors/background">Background vector created by vectortwins - www.freepik.com</a>
