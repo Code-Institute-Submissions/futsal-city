@@ -1,5 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:100,200,300,400,500,600,700&display=swap');
 /*------------------------------------Colours*/
+section {
+    background-color: #131313;
+    color: white;
+}
+.website-header, footer {
+    background-color: #BF9000;
+}
 
 
 
@@ -45,6 +52,7 @@
 }
 /*------------------------------------Navbar*/
 
+
 /*------------------------------------Next Fixture*/
 
 
@@ -54,3 +62,54 @@
 
 
 /*------------------------------------Footer*/
+
+@media (max-width: 765px) {
+    footer {
+        font-size: medium;
+    }
+    .stadium-address {
+        font-size: 150%;
+        font-weight: bolder;
+    }
+}
+
+footer {
+    font-family: "Andika New Basic", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    background-color: #BF9000;
+    min-height: 120px;
+    color: #0b0b0c;
+    margin: 0;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.stadium-address{
+    font-weight: 700;
+    font-family: "Andika New Basic", sans-serif;
+}
+
+.social-networks {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 200%;
+    margin-right: 1%;
+    padding: 1%;
+    color: #131313;
+    text-align: center;
+}
+
+#footer-details {
+    padding: 20px;
+}
