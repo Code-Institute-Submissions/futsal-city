@@ -8,6 +8,10 @@ section {
     background-color: #BF9000;
 }
 
+.container {
+    padding: 5px;
+    width: 100%;
+}
 
 
 /*------------------------------------General*/
@@ -98,6 +102,11 @@ section {
 
 
 /*------------------------------------Club News*/
+.club-news {
+    font-family: "Andika New Basic", sans-serif;
+    font-weight: 500;
+    padding-top: 10px;
+}
 
 
 
