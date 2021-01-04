@@ -72,7 +72,29 @@ section {
 }
 
 /*------------------------------------Next Fixture*/
+.section-header {
+    font-family: "Andika New Basic", sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
+.opponent-info {
+    font-family: "Andika New Basic", sans-serif;
+    
+}
+
+.game-info {
+    font-family: "Andika New Basic", sans-serif;
+    text-align: right;
+}
+
+.small-fixture {
+    font-family: "Andika New Basic", sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
 
 
 /*------------------------------------Club News*/
