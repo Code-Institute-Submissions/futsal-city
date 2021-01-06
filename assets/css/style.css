@@ -154,7 +154,7 @@ h1,h2,h3,h4 {
 }
 @media (max-width: 765px) {
     #social-events div {
-        width: 29.5%;
+        width: 29%;
         padding: 5px;
         font-size: x-small;
         font-weight: 700;
@@ -225,3 +225,43 @@ footer {
 #footer-details {
     padding: 20px;
 }
+
+/*------------------------------------season.html*/
+/*------------------------------------Results-Fixtures*/
+.results-fixtures {
+    height: 300px;
+}
+.results-fixtures p {
+        padding: 10px 0 0;
+    }
+.last-results {
+   position: relative;
+   top: 1%;
+   text-align: center;
+   width: 50%;
+}
+
+.next-fixtures {
+    position: relative;
+    left: 25%;
+    bottom: 100%;
+    text-align: center;
+    width: 50%;
+}
+@media (max-width: 675px) {
+    .results-fixtures {
+        height: 200%;
+    }
+    
+    .next-fixtures, .last-results {
+        position: static;
+        width: 100%;
+    }
+    .next-fixtures, .last-results p {
+        font-size: small;
+    }
+}
+/*------------------------------------Captains comments*/
+
+
+/*------------------------------------managers comments*/
