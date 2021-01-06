@@ -126,16 +126,54 @@ h1,h2,h3,h4 {
 .img-container {
     width:50%;
     height: 50%;
-    
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 2.5%;
-    
-
+    padding: 10px 10px 20px 2.5%;
     
 }
+/*------------------------------------Social-Events*/
+#social-events {
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/29/07/06/bleachers-1867992_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0 0 10px;
+}
 
-
+#social-events div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 31.5%;
+    height: 300px;
+    float: left;
+    padding: 30px 10px;
+    text-align: center;
+    margin: 6.5px;
+    font-size: large;
+    
+}
+@media (max-width: 765px) {
+    #social-events div {
+        width: 29.5%;
+        padding: 5px;
+        font-size: x-small;
+        font-weight: 700;
+    }
+    #social-events {
+        padding: 0;
+    }
+    #social-events h3 {
+        font-size: large;
+    }
+    h6 {
+        font-size: small;
+    }
+    #social-events p, h5 {
+        padding: 5px 0;
+        font-size: medium;
+        font-weight: 500;
+    }
+}
 /*------------------------------------Footer*/
 
 @media (max-width: 765px) {
