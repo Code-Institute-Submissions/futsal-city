@@ -3,6 +3,7 @@
 section {
     background-color: #131313;
     color: white;
+    font-family: "Andika New Basic", sans-serif;
 }
 .website-header, footer {
     background-color: #BF9000;
@@ -106,18 +107,11 @@ h1,h2,h3,h4 {
     
 }
 
-.opponent-info {
-    font-family: "Andika New Basic", sans-serif;
-    
-}
-
 .game-info {
-    font-family: "Andika New Basic", sans-serif;
     text-align: right;
 }
 
 .small-fixture {
-    font-family: "Andika New Basic", sans-serif;
     text-align: center;
     padding-top: 10px;
 }
@@ -125,7 +119,6 @@ h1,h2,h3,h4 {
 
 /*------------------------------------Club News*/
 .club-news {
-    font-family: "Andika New Basic", sans-serif;
     font-weight: 500;
     padding-top: 10px;
     height: 300px;
@@ -152,7 +145,6 @@ h1,h2,h3,h4 {
 }
 
 #social-events div {
-    font-family: "Andika New Basic", sans-serif;
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
     width: 31.5%;
@@ -180,7 +172,6 @@ h1,h2,h3,h4 {
     #social-events div {
         width: 29%;
         padding: 5px;
-        font-family: "Andika New Basic", sans-serif;
     }
     #social-events {
         padding: 0;
@@ -232,7 +223,6 @@ footer {
 }
 .stadium-address{
     font-weight: 700;
-    font-family: "Andika New Basic", sans-serif;
 }
 
 .social-networks {
@@ -328,13 +318,11 @@ footer {
 
 /*------------------------------------Contact form section*/
 .contact-heading {
-    font-family: "Andika New Basic", sans-serif;
     font-weight: 700;
     padding: 15px 0;
 }
 
 .center-form {
-    font-family: "Andika New Basic", sans-serif;
     padding: 10px 0 ;
     margin: 0 auto;
     max-width: 50%;
