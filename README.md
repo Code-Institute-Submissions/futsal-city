@@ -2,7 +2,7 @@
 ## My Goal
 There are so many local football clubs that have websites that are poorly done. Their content is not responsive, so it looks good on desktop but looks horrible on mobile. This always annoys me because whenever I want to find some information about my local football team it is always a struggle and a pain. The text is not aligned properly on the page. The style looks like its from the 1990's, it just does not feel modern. 
 
-I want to build a sleek website, that looks modern and is able to adapt to modern requirements such as being responsive for desktop and mobile. I want the website to have all the most relevant information and to make the supporter's life easier. Most football sites do not include navigation links to fixutres, I want to add these links so that supporters can easily see where games are being played, without them having to copy and paste the location into a new window.
+I want to build a sleek website, that looks modern and is able to adapt to modern requirements such as being responsive for desktop and mobile. I want the website to have all the most relevant information and to make the supporter's life easier. Most football sites do not include navigation links to fixtures, I want to add these links so that supporters can easily see where games are being played, without them having to copy and paste the location into a new window.
 
 Often when looking on local teams websites they have a lot of wasted space or the content does not fit into the layout properly. I want to try and maximise space without putting to much stuff onto the screen as many websites can put to much content onto a page and the page can become confusing and the visitor can be put off visiting the site due to the poor layout.
 
@@ -12,12 +12,12 @@ Often when looking on local teams websites they have a lot of wasted space or th
 The General Public, club supporters and appealing to Corporate Sponsors.
 ## Relevant Content
 Show past and future fixtures to give supporters an idea of how the team has been doing.
-Contact form so supporters can email club about purchasing tickets and/or any other questions they may have. Also easier for potential corporate sponsors to get into contact with the club about potential sponsorship deals.
+Contact form, so supporters can email club about purchasing tickets and/or any other questions they may have. Also easier for potential corporate sponsors to get into contact with the club about potential sponsorship deals.
 Club news on home page for supporters to keep up-to-date with anything happening at the club.
 Club Social Events to increase supporter engagement at the club.
 Mini-gallery on home page helps add colour to the page as well as show off the club kit and players. Showing club kit will increase the chances of site visitors buying the kit, thus increasing cash flow.
 ## Supporter Needs
-Club informaton with regard to fixtures and results. Keeping fixtures and results up to date means supporters know they can rely on the club keeping them up-to-date with how the club is doing. Lowering the posibility of supporters using other sites for that informaton, meaning supporters are more engaged with the site and the club.
+Club information with regard to fixtures and results. Keeping fixtures and results up to date means supporters know they can rely on the club keeping them up-to-date with how the club is doing. Lowering the posibility of supporters using other sites for that information, meaning supporters are more engaged with the site and the club.
 
 # Typography and Colour Scheme:
 ## Typography
@@ -28,8 +28,8 @@ Header will be a dark dirty gold (#BF9000). It'll be this colour to match the se
 Body will be black (#131313), as this will match the main colour of the clubs badge. The font colour will be white to contrast the black(#131313) background.
 ## Footer
 Footer colour will match the header colour (#BF9000). This will help with the aesthetic and uniformity of the website pages. The footer font colour will also match the header. Font colour will be black (#131313) as it will contrast with the gold background.
-## Dropdown Menu
-The menu will have a white background and black font. This is to contrast the menu with the rest of the site
+## Drop-down Menu
+The menu will have a white background and black font. This is to contrast the menu with the rest of the site.
 
 # User Stories:
 * As a supporter, I want to see when the clubs next game is so that I know when the team is playing next.
@@ -52,25 +52,25 @@ The menu will have a white background and black font. This is to contrast the me
 
 # Meeting User Stories Needs
 
-When a supporter lands on the page the first thing they see is the next fixture with all the relevant details. They are also able to click on the on the location of the fixture to help them navigate to the stadium. Adding in these links throughout the website helps to increase the supporters reliability on the website as the website has all the information they require and they can easily use the links to then navigate to the fixture. 
+When a supporter lands on the page the first thing they see is the next fixture with all the relevant details. They are also able to click on the location of the fixture to help them navigate to the stadium. Adding in these links throughout the website helps to increase the supporter's reliability on the website as the website has all the information they require, and they can easily use the links to then navigate to the fixture. 
 
-Below the Next Fixture section on the home page is a snippet of club news. This section has been made responsive so that depending on how long the news article, the section will become scrollable. By making the section responsive and scrollable it stops it from taking up a lot of space on the page. At the end of the news article is a link to the rest of the statement. 
+Below the Next Fixture section on the home page is a snippet of club news. This section has been made responsive so that depending on how long the news article, the section will become scroll able. By making the section responsive and scroll able it stops it from taking up a lot of space on the page. At the end of the news article is a link to the rest of the statement. 
 
-Letting supporters buy tickets via the website is a future feature that will be added, as adding a payment portal requires a higher skillset than I have at the moment. This is why I also decided against doing the modal at the top of the screen, I felt like it would have been an unnecessary feature. 
+Letting supporters buy tickets via the website is a future feature that will be added, as adding a payment portal requires a higher skill set than I have at the moment. This is why I also decided against doing the modal at the top of the screen, I felt like it would have been an unnecessary feature. 
 
 Any potential commercial partner, supporter or visitor can easily contact the club via the contact form. When fulling out the form they only need to give relevant details like their full name and email address. I decided to not give the option of mobile number as that is not a good way to communicate with supporters. I also wanted a simple and straight forward form as some forms can be difficult to full out because you have so many options to choose from such as mobile number, address, date of birth etc. 
 
-On the season 20/21 page supporters can see all the lastest updates with regards to fixtures and results. They are able to see our 5 most recent results with the scorelines. They are also able to see the next 5 fixtures and whether they are home or away. With each fixture also have links to each respective stadium. This helps supporters see which stadium is closest to them for away games so they are able to see if they can possibly attend the game. All results and fixtures have the dates of when the game was played and when future games will be played. On this page supporters can also see the comments from the club captain and manager. These two sections are responsive and scrollable like the club news section on the home page. This is once again to save on space. 
+On the season 20/21 page supporters can see all the latest updates regarding fixtures and results. They are able to see our 5 most recent results with the scorelines. They are also able to see the next 5 fixtures and whether they are home or away. With each fixture also have links to each respective stadium. This helps supporters see which stadium is closest to them for away games, so they are able to see if they can attend the game. All results and fixtures have the dates of when the game was played and when future games will be played. On this page supporters can also see the comments from the club captain and manager. These two sections are responsive and scroll able like the club news section on the home page. This is once again to save on space. 
 
-At the bottom of the page in the footer are the icons of 4 major social media companies. When clicked on these icons will take the supporter to the relevant social-media page. This is important for any modern sport team to do as social media plays a big part in todays society. By having a big social media following this can increase the clubs domestic and potentially global reach. 
+At the bottom of the page in the footer are the icons of 4 major social media companies. When clicked on these icons will take the supporter to the relevant social-media page. This is important for any modern sport team to do as social media plays a big part in today's society. By having a big social media following this can increase the clubs domestic and potentially global reach. 
 
-The countdown to the next fixutre I was unable to do because I was not able to figure out how to code it. This feature could be a future feature to be added along with the buying of tickets via the website.
+The countdown to the next fixture I was unable to do because I was not able to figure out how to code it. This feature could be a future feature to be added along with the buying of tickets via the website.
 
 # Features
 ## Header:
 The header will be sticky on all devices.
 
-Clubs logo will be in the left-hand side of the header. The dropdown navigation menu will be on the right-hand side. Within the dropdown menu there will be three headings linking to the other pages. The other pages will be "Season 20/21", "Contact" and "Home" to help supporters navigate back to the home page from the other pages. The order of these pages on the dropwdown menu will be "Home", "Season 20/21" and "Contact".
+Clubs logo will be in the left-hand side of the header. The dropdown navigation menu will be on the right-hand side. Within the dropdown menu there will be three headings linking to the other pages. The other pages will be "Season 20/21", "Contact" and "Home" to help supporters navigate back to the home page from the other pages. The order of these pages on the dropdown menu will be "Home", "Season 20/21" and "Contact".
 
 In the centre-top of the header will be a live countdown to the clubs next game. The countdown will show days, hours and minutes until next game.
 
@@ -79,7 +79,7 @@ After the site visitor has been on the home page for 5 seconds a pop-up will com
 ## Header Mobile:
 Header will be sticky on mobile.
 
-Clubs logo will shift to the center when on a mobile device. The dropdown navigation menu will also now shift to the center of the header. Within the dropwdown menu will be the same headings for the pages, "Home", "Season 20/21" and "Contact".
+Clubs logo will shift to the center when on a mobile device. The dropdown navigation menu will also now shift to the center of the header. Within the dropdown menu will be the same headings for the pages, "Home", "Season 20/21" and "Contact".
 
 Live countdown to next fixture will stay in the center of the page and will be above the clubs logo.
 
@@ -109,19 +109,19 @@ Footer layout will stay the same when on mobile.
 
 ## Body: Season 20/21
 The top half of this page will be split into two sections. On the left-side of the page will have a section with the heading of "Last 5 Results". The text for the section will be aligned-center. The text will show information as follows, Date-Opponent-Result. Each result will be on a new line.
-On the right-side will have the heading of "Next 5 Fixtures". The text will also be aligned-center and the text will have the following informaton, Date-Opponent-Venue. 
+On the right-side will have the heading of "Next 5 Fixtures". The text will also be aligned-center and the text will have the following information, Date-Opponent-Venue. 
 
-The bottom half of this page will have a section with the heading of "Comments About Last Match" the heading will be followed by the icon of a speech buddle. On the left side of this section will have the heading of "Captains Comments" followed below by the captains comments on how the last game went. On the right side of this section will be the managers comments, this will have the heading of "Managers Comments". Below the heading will be a text block of the managers comments about the last game.
+The bottom half of this page will have a section with the heading of "Comments About Last Match" the heading will be followed by the icon of a speech bubble. On the left side of this section will have the heading of "Captains Comments" followed below by the captains comments on how the last game went. On the right side of this section will be the managers comments, this will have the heading of "Managers Comments". Below the heading will be a text block of the managers comments about the last game.
 
 ## Body Mobile: Season 20/21
 All the sections will shift to the middle of the page with the headings being center-aligned. And the text block for the comments from the captain and manager will be aligned-left. 
 
-"Next 5 Fixtures" section will be top of the page followed by "Last 5 Results" with the text in these sections being aligned-center. The "Comments About LAst MAtch" section will be in the order of captains comments first followed by managers comments.
+"Next 5 Fixtures" section will be top of the page followed by "Last 5 Results" with the text in these sections being aligned-center. The "Comments About Last Match" section will be in the order of captains comments first followed by managers comments.
 
 ## Body: Contact
-This page will have a contact form. The contact form will have 3 mandatory fields which will be First Name, Surname and Email Address. There will be another option that is not mandatory which is mobile number. Below these field there will be the option for them to select how they would like to be contacted. This will automatically be set to email but they can change it to mobile number.
+This page will have a contact form. The contact form will have 3 mandatory fields which will be First Name, Surname and Email Address. There will be another option that is not mandatory which is mobile number. Below these field there will be the option for them to select how they would like to be contacted. This will automatically be set to email, but they can change it to mobile number.
 
-The form will have First name and Email as headings on the left side of the form, with Surname and Mobile Number on the right side of the form. Underneath these 4 headings will be anohter heading aligned in the center which says "How would you like us to contact you?" With the options of Email and Mobile number below. The email and mobile number options will be radio buttons. 
+The form will have First name and Email as headings on the left side of the form, with Surname and Mobile Number on the right side of the form. Underneath these 4 headings will be another heading aligned in the center which says "How would you like us to contact you?" With the options of Email and Mobile number below. The email and mobile number options will be radio buttons. 
 
 Below the radio buttons will be the heading "Message" which will be mandatory. This heading will then have a text box below for the visitor to type whatever message they want to send to the club. 
 
@@ -129,7 +129,7 @@ On the bottom right below the message box will be a "Submit" button. Once this b
 
 # Future Features:
 ## Newsletter Sign-up
-Add a simple user sign-up form so they can receive club news via email. This will increase fan interactions with the club and the club will be able to promote more stuff to fans via the newsletter. 
+Add a simple user sign-up form, so they can receive club news via email. This will increase fan interactions with the club and the club will be able to promote more stuff to fans via the newsletter. 
 ## Online Purchases
 Add another page where supporters can buy tickets for upcoming games. Adding this feature will help increase revenue, and will make it easier for future/skeptical supporters buy tickets. Future/skeptical supporters may be put off attending their first game due to not knowing how to buy tickets or put off by the process of having to email the club in order to buy tickets.
 
@@ -167,7 +167,7 @@ Using Lighthouse from the inspect page and used the Lighthouse option to test my
 When using lighthouse i was able to see that my image file sizes were pretty large as I had not compressed their sizes. Using a free image compressor I will be able to make their file sizes smaller, which in turn should improve the performance.
 
 <a href="https://web.dev/external-anchors-use-rel-noopener/?utm_source=lighthouse&utm_medium=devtools">'a' tag performance improvement </a>
-<a href="https://web.dev/button-name/?utm_source=lighthouse&utm_medium=devtools">aira-label accesssibility improvement </a>
+<a href="https://web.dev/button-name/?utm_source=lighthouse&utm_medium=devtools">aria-label accessibility improvement </a>
 
 ## 'a' Tag Improvement
 
@@ -202,11 +202,11 @@ By adding a better description to the link text helps the search engine better u
 
 # Lighthouse
 
-By getting the best lighthouse score possible will help improve the sites reachability as the site looks good to the search engine and will be higher up on the search engines search pages.
+By getting the best lighthouse score possible will help improve the sites reach ability as the site looks good to the search engine and will be higher up on the search engines search pages.
 
 Whilst I was busy improving the lighthouse score I was also able to improve and test the site. This included testing all the sites links when I was improving the performance and security of the site for the 'a' tags.
 
-By improving the sites accesssibility I was also able to improve the code for the headings. The headers had not been put into the proper order as i went from having h1 to h3 heading and after reading the google devs website I found out that this was a typical trait for new programmers. I was then able to properly order the headings and I then styled the headings in style.css and this made improved the code as well as the sites lighthouse performance. 
+By improving the sites accessibility I was also able to improve the code for the headings. The headers had not been put into the proper order as i went from having h1 to h3 heading and after reading the google devs website I found out that this was a typical trait for new programmers. I was then able to properly order the headings and I then styled the headings in style.css and this made improved the code as well as the sites lighthouse performance. 
 
 # General Testing
 
@@ -232,12 +232,12 @@ All pages needed to be responsive due to the amount of people using their mobile
 
 Header responsiveness when on mobile the elements in the header shift to the middle of the screen with the logo above the dropdown menu.
 
-For index.html this meant the first element, Next Fixture needed to be responsive as the layout looked horrible when it stayed the same on mobile as when on desktop. When on mobile the the text needed to be aligned in the centre as this looked more visually appealing. 
+For index.html this meant the first element, Next Fixture needed to be responsive as the layout looked horrible when it stayed the same on mobile as when on desktop. When on mobile the text needed to be aligned in the centre as this looked more visually appealing. 
 
 assets/testing-images/index-html-next-fixture-mobile.JPG. 
 
 And then when in desktop view the text would be split into columns. So there would be two pieces of text on each side of the desktop screen. With the text aligned to the left and right respectively.
 
-When on mobile the club news section becomes scrollable if there is a lot of writing. this makes sure all the content fits onto the screen nicely and stops the section from taking up alot of the screen. 
+When on mobile the club news section becomes scroll able if there is a lot of writing. this makes sure all the content fits onto the screen nicely and stops the section from taking up a lot of the screen. 
 
-For the Season 20/21 page the first element is very similar to the first element onthe index.html page. And the same needs to happen to this content as did the content in index.html. When on desktop on element will be on the left and one on the right. But when it is on mobile the elements both go to the middle with the tect-aligned in the centre. The Last 5 results go on top and the next 5 fixtures go below.
+For the Season 20/21 page the first element is very similar to the first element on the index.html page. And the same needs to happen to this content as did the content in index.html. When on desktop on element will be on the left and one on the right. But when it is on mobile the elements both go to the middle with the text-aligned in the centre. The Last 5 results go on top and the next 5 fixtures go below.
