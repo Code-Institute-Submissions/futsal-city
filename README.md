@@ -29,7 +29,7 @@ Body will be black (#131313), as this will match the main colour of the clubs ba
 ## Footer
 Footer colour will match the header colour (#BF9000). This will help with the aesthetic and uniformity of the website pages. The footer font colour will also match the header. Font colour will be black (#131313) as it will contrast with the gold background.
 ## Dropdown Menu
-Will be gold, with the dropdown menu and text boxes having black borders.sThe font colour will be black.
+The menu will have a white background and black font. This is to contrast the menu with the rest of the site
 
 # User Stories:
 * As a supporter, I want to see when the clubs next game is so that I know when the team is playing next.
