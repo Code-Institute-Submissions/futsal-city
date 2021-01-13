@@ -244,3 +244,24 @@ When on mobile the club news section becomes scroll able if there is a lot of wr
 
 For the Season 20/21 page the first element is very similar to the first element on the index.html page. And the same needs to happen to this content as did the content in index.html. When on desktop on element will be on the left and one on the right. But when it is on mobile the elements both go to the middle with the text-aligned in the centre. The Last 5 results go on top and the next 5 fixtures go below.
 
+# Deployment to Github 
+* When on GitHub navigate to Futsal-City repository. Once at the repository under the name will be 'Settings', which must be clicked.
+* When on the settings pages, Start to scroll down.
+* While scrolling look out for the heading "GitHub Pages"
+* Under the heading click on the drop-down menu under source. 
+* In the dropdown menu select either 'None' or 'Branch' as your publishing source.
+* Once selected, you can select a folder for your publishing source. This can be either "/(root)" or "/docs".
+* Then click save.
+
+"If you choose the /docs folder on any branch as your publishing source, then later remove the /docs folder from that branch in your repository, your site won't build and you'll get a page build error message for a missing /docs folder." 
+<a href="https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site" target="_blank" rel="noreferrer"> Configuring a publishing source </a>
+
+# Cloning my repository
+
+* Go to Futsal-city repository
+* Above where all the files are listed there will be a button that says "Code"
+* When clicked a drop-down menu will appear. 
+* Click on "Open with GitHub Desktop"
+
+<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/cloning-a-repository-from-github-to-github-desktop" target="_blank" rel="noreferrer"> Cloning a repository from GitHub to GitHub Desktop</a>
+
