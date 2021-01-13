@@ -208,6 +208,8 @@ Whilst I was busy improving the lighthouse score I was also able to improve and 
 
 By improving the sites accessibility I was also able to improve the code for the headings. The headers had not been put into the proper order as i went from having h1 to h3 heading and after reading the google devs website I found out that this was a typical trait for new programmers. I was then able to properly order the headings and I then styled the headings in style.css and this made improved the code as well as the sites lighthouse performance. 
 
+
+<a href="https://autoprefixer.github.io/">Auto-Fixer </a>
 # General Testing
 
 I checked to make sure all links worked and opened onto another page. I was able to see that I had not added the target=_blank to the links for the locations on the index.html page for the social events. The links opened in the same window.
@@ -241,3 +243,4 @@ And then when in desktop view the text would be split into columns. So there wou
 When on mobile the club news section becomes scroll able if there is a lot of writing. this makes sure all the content fits onto the screen nicely and stops the section from taking up a lot of the screen. 
 
 For the Season 20/21 page the first element is very similar to the first element on the index.html page. And the same needs to happen to this content as did the content in index.html. When on desktop on element will be on the left and one on the right. But when it is on mobile the elements both go to the middle with the text-aligned in the centre. The Last 5 results go on top and the next 5 fixtures go below.
+

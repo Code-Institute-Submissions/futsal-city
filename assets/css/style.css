@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:100,200,300,400,500,600,700&display=swap');
 /*------------------------------------Colours*/
 section {
@@ -86,7 +93,8 @@ h1,h2,h3,h4 {
     .justify-content-end {
     padding-top: 5px;
     -ms-flex-pack: center !important;
-    justify-content: center !important;
+    -webkit-box-pack: center !important;
+            justify-content: center !important;
   }
   /*------------------------------------btn-resp code used from bootstrap css for btn-sm*/
   .btn-resp {
@@ -216,8 +224,11 @@ footer {
     margin: 0;
 }
 .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin-right: -10px;
     margin-left: -10px;
 }
