@@ -11,6 +11,7 @@ section {
     background-color: #131313;
     color: white;
     font-family: "Andika New Basic", sans-serif;
+    overflow: hidden;
 }
 .website-header, footer {
     background-color: #BF9000;
