@@ -138,14 +138,14 @@ Add another page where supporters can buy tickets for upcoming games. Adding thi
 assets/wireframes/milestone.project.wireframes.pdf
 
 # Images
-1. Football Logo Image by <a href="https://www.freepik.com/vectors/background">Background vector created by vectortwins - www.freepik.com</a>
-1. Football stadium for social events by <a href="https://pixabay.com/users/pexels-2286921/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1867992">Pexels</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1867992">Pixabay</a>
-1. 4 images on index.html page for image gallery by <a href="https://pixabay.com/users/phillipkofler-715497/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5754867">Phillip Kofler</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5754867">Pixabay</a>
+1. Football Logo Image by <a href="https://www.freepik.com/vectors/background"target="_blank" rel="noreferrer">Background vector created by vectortwins - www.freepik.com</a>
+1. Football stadium for social events by <a href="https://pixabay.com/users/pexels-2286921/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1867992"target="_blank" rel="noreferrer">Pexels</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1867992"target="_blank" rel="noreferrer">Pixabay</a>
+1. 4 images on index.html page for image gallery by <a href="https://pixabay.com/users/phillipkofler-715497/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5754867"target="_blank" rel="noreferrer">Phillip Kofler</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5754867"target="_blank" rel="noreferrer">Pixabay</a>
 
 # Testing Writeup
 ## Websites used to validate 
 ### W3C HTML & CSS
-<a href="https://validator.w3.org/#validate_by_input">W3C HTML</a><a href="https://jigsaw.w3.org/css-validator/#validate_by_input">W3C CSS</a>
+<a href="https://validator.w3.org/#validate_by_input"target="_blank" rel="noreferrer">W3C HTML</a><a href="https://jigsaw.w3.org/css-validator/#validate_by_input"target="_blank" rel="noreferrer">W3C CSS</a>
 W3C is used to validate HTML and CSS.
 Using the W3C CSS validator i was able to find a mistake with my code. There was a warning of ".section-header	Value Error : padding-top Too many values or values are not recognized : 10px 0". I had by accident not changed padding-top to just padding.
 
@@ -156,33 +156,23 @@ I then put my html code for each of my pages into the W3C html validator and it 
 
 Using Lighthouse from the inspect page and used the Lighthouse option to test my pages and see how they did. I used Lighthouse to test both on mobile and desktop.
 #### Lighthouse Mobile : index.html
-1. Image - assets/testing images/lighthouse-mobile-test.JPG
 
-1. Image - assets/testing images/lighthouse-mobile-test-performance.JPG
+![lighthouse mobile test](assets/testing-images/lighthouse-mobile-test.JPG)
 
-1. Image - assets/testing images/lighthouse-mobile-acces.JPG
+![lighthouse mobile test performance](assets/testing-images/lighthouse-mobile-test-performance.JPG) ![lighthouse mobile accessibility](assets/testing-images/lighthouse-mobile-acces.JPG)
 
-1. Image - assets/testing images/lighthouse-mobile-best-prac.JPGG
+![lighthouse mobile best practice](assets/testing-images/lighthouse-mobile-best-prac.JPG)
+ 
 
 When using lighthouse i was able to see that my image file sizes were pretty large as I had not compressed their sizes. Using a free image compressor I will be able to make their file sizes smaller, which in turn should improve the performance.
 
-<a href="https://web.dev/external-anchors-use-rel-noopener/?utm_source=lighthouse&utm_medium=devtools">'a' tag performance improvement </a>
-<a href="https://web.dev/button-name/?utm_source=lighthouse&utm_medium=devtools">aria-label accessibility improvement </a>
+<a href="https://web.dev/external-anchors-use-rel-noopener/?utm_source=lighthouse&utm_medium=devtools" target="_blank" rel="noreferrer">'a' tag performance improvement </a>
+<a href="https://web.dev/button-name/?utm_source=lighthouse&utm_medium=devtools"target="_blank" rel="noreferrer">aria-label accessibility improvement </a>
 
 ## 'a' Tag Improvement
+![season.html mobile 'a' links](assets/testing-images/season-html-lighthouse-mobile-a-links.JPG) ![season.html mobile 'a' links passed](assets/testing-images/season-html-lighthouse-mobile-a-links-passed.JPG)
 
-assets/testing-images/season-html-lighthouse-mobile-a-links.JPG.
-
-assets/testing-images/season-html-lighthouse-mobile-a-links-passed.JPG.
-
-assets/testing-images/lighthouse-mobile-a-links.JPG.
-
-assets/testing-images/lighthouse-mobile-a-links-passed.JPG.
-
-assets/testing-images/contact-html-lighthouse-mobile-a-links.JPG.
-
-assets/testing-images/contact-html-lighthouse-mobile-a-links-passed.JPG.
-
+![Lighthouse mobile 'a' links](assets/testing-images/lighthouse-mobile-a-links.JPG) ![Lighthouse mobile 'a' links passed](assets/testing-images/lighthouse-mobile-a-links-passed.JPG)
 Adding rel-noreffer to the 'a' tags for links help to add to the security of the site. As stated on the google devs website, "When you link to a page on another site using the target="_blank" attribute, you can expose your site to performance and security issues:
 
 The other page may run on the same process as your page. If the other page is running a lot of JavaScript, your page's performance may suffer.
@@ -190,12 +180,9 @@ The other page can access your window object with the window.opener property. Th
 Adding rel="noopener" or rel="noreferrer" to your target="_blank" links avoids these issues." Improving the sites performance and security is always important. And by improving security site visitors will be safer and the site will be less susceptible to malicious redirects when clicked.
 
 ## Site SEO
+![index.html mobile seo](assets/testing-images/index-html-lighthouse-mobile-seo.JPG) ![index.html mobile seo passed](assets/testing-images/index-html-lighthouse-mobile-seo-passed.JPG)
 
-assets/testing-images/index-html-lighthouse-mobile-seo.JPG.
-
-assets/testing-images/index-html-lighthouse-mobile-seo-passed.JPG.
-
-assets/testing-images/lighthouse-mobile-seo.JPG.
+![Lighthouse mobile seo](assets/testing-images/lighthouse-mobile-seo.JPG)
 
 
 By adding a better description to the link text helps the search engine better understand what the link is for. This also improves the appearance of the site for visitors as they know what the link goes to. 
@@ -209,12 +196,14 @@ Whilst I was busy improving the lighthouse score I was also able to improve and 
 By improving the sites accessibility I was also able to improve the code for the headings. The headers had not been put into the proper order as i went from having h1 to h3 heading and after reading the google devs website I found out that this was a typical trait for new programmers. I was then able to properly order the headings and I then styled the headings in style.css and this made improved the code as well as the sites lighthouse performance. 
 
 
-<a href="https://autoprefixer.github.io/">Auto-Fixer </a>
-# General Testing
+<a href="https://autoprefixer.github.io/" target="_blank" rel="noreferrer">Auto-Fixer </a>
+
+# Test Cases
 
 I checked to make sure all links worked and opened onto another page. I was able to see that I had not added the target=_blank to the links for the locations on the index.html page for the social events. The links opened in the same window.
 
-assets/testing-images/index-html-_blank-added.JPG. 
+![_blank added](assets/testing-images/index-html-_blank-added.JPG)
+
 
 assets/testing-images/index-html-_blank-not-open.JPG
 
@@ -265,3 +254,6 @@ For the Season 20/21 page the first element is very similar to the first element
 
 <a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/cloning-a-repository-from-github-to-github-desktop" target="_blank" rel="noreferrer"> Cloning a repository from GitHub to GitHub Desktop</a>
 
+# Bugs
+
+When importing url for google fonts, the url was editted. Got a new url and added it to style.css this then fixed the bug. 
