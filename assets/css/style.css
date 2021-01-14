@@ -59,7 +59,7 @@ h1,h2,h3,h4 {
 }
 @media (max-width: 765px) {
     .logo-container {
-        background: url(assets/images/football-logo-background_1195-244.jpg);
+        background: url(/assets/images/football-logo-background-1195-244.jpg);
         display: block;
         margin-left: auto;
         margin-right: auto;
