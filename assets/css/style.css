@@ -4,7 +4,6 @@
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
-
 @import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@400;700&display=swap');
 /*------------------------------------Colours*/
 section {
@@ -16,32 +15,23 @@ section {
 .website-header, footer {
     background-color: #BF9000;
 }
-
-
-
-
 /*------------------------------------General*/
 .centre-heading {
     text-align: center;
     padding: 15px;
 }
-
-
 /*------------------------------------Special paddings/margins/text*/
 h1,h2,h3,h4 {
     margin: 0;
 }
-
 .uppercase {
     text-transform: uppercase;
 }
-
 .general-sub {
     font-family: "Andika New Basic", sans-serif;
     font-weight: 400;
     color: white;
 }
-
 .container {
     padding: 15px;
     width: 100%;
@@ -64,11 +54,9 @@ h1,h2,h3,h4 {
     width: 140px;
     height: 140px;    
 }
-
 .website-header {
     padding: 10px;
 }
-
 @media (max-width: 765px) {
     .logo-container {
         background: url(assets/images/football-logo-background_1195-244.jpg);
@@ -80,7 +68,6 @@ h1,h2,h3,h4 {
         height: 100px;  
     }
 }
-
 /*------------------------------------Navbar*/
 @media (min-width: 766px) {
     .justify-content-end {
@@ -89,7 +76,6 @@ h1,h2,h3,h4 {
     left: 85%;
 }
 }
-
 @media (max-width: 765px) {
     .justify-content-end {
     padding-top: 5px;
@@ -104,9 +90,7 @@ h1,h2,h3,h4 {
   line-height: 1.5;
   border-radius: 0.2rem;
   }
-
 }
-
 /*------------------------------------Next Fixture*/
 .section-header {
     font-family: "Andika New Basic", sans-serif;
@@ -115,17 +99,13 @@ h1,h2,h3,h4 {
     padding: 10px 0;
     
 }
-
 .game-info {
     text-align: right;
 }
-
 .small-fixture {
     text-align: center;
     padding-top: 10px;
 }
-
-
 /*------------------------------------Club News*/
 .club-news {
     font-weight: 500;
@@ -134,7 +114,6 @@ h1,h2,h3,h4 {
     overflow: auto;
 
 }
-
 /*------------------------------------Gallery*/
 .img-container {
     width:50%;
@@ -152,7 +131,6 @@ h1,h2,h3,h4 {
     overflow: hidden;
     padding: 10px 0 0 10px;
 }
-
 #social-events div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
@@ -163,7 +141,6 @@ h1,h2,h3,h4 {
     text-align: center;
     margin: 6.5px;
     font-size: large;
-    
 }
 #social-events h1 {
     font-size: xx-large;
@@ -188,15 +165,12 @@ h1,h2,h3,h4 {
     #social-events h1 {
         font-size: large;
     }
-
     #social-events h2 {
         font-size: x-large;
     }
-
     #social-events h3, #social-events h4 {
         font-size: medium;
     }
-   
     #social-events p {
         padding: 5px 0;
         font-size: medium;
@@ -204,7 +178,6 @@ h1,h2,h3,h4 {
     }
 }
 /*------------------------------------Footer*/
-
 @media (max-width: 765px) {
     footer {
         font-size: medium;
@@ -214,7 +187,6 @@ h1,h2,h3,h4 {
         font-weight: bolder;
     }
 }
-
 footer {
     font-family: "Andika New Basic", sans-serif;
     font-weight: 400;
@@ -236,7 +208,6 @@ footer {
 .stadium-address{
     font-weight: 700;
 }
-
 .social-networks {
     text-align: center;
     padding-top: 30px;
@@ -245,7 +216,6 @@ footer {
 .social-networks li {
     display: inline;
 }
-
 .social-networks i {
     font-size: 200%;
     margin-right: 1%;
@@ -256,7 +226,6 @@ footer {
 #footer-details {
     padding: 20px;
 }
-
 /*------------------------------------season.html*/
 /*------------------------------------Results-Fixtures*/
 .results-fixtures {
@@ -272,7 +241,6 @@ footer {
    text-align: center;
    width: 50%;
 }
-
 .next-fixtures {
     position: relative;
     left: 25%;
@@ -305,7 +273,6 @@ footer {
     padding: 20px 0 0;
     
 }
-
 .comments {
     text-align: left;
     width: 100%;
@@ -317,7 +284,6 @@ footer {
     font-size: xx-large;
     
 }
-
 .captains-comments, .managers-comments {
     font-size: large;
     text-align: center;
