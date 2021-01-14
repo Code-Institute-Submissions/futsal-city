@@ -214,7 +214,7 @@ All links for next 5 fixtures on the Season20/21 page open in a new window, and 
 
 When you go to send a message on the contact page a warning comes up saying that you need to fill-in that specific section of the form.
 
-assets/testing-images/contact-page-warning.JPG.
+![Contact Page Warning](assets/testing-images/contact-page-warning.JPG)
 
 Making sure the warning shows is important because if the warning did not show this may lead to visitors becoming annoyed because they might not know what they are doing wrong. 
 
@@ -260,3 +260,6 @@ For the Season 20/21 page the first element is very similar to the first element
 # Bugs
 
 When importing url for google fonts, the url was editted. Got a new url and added it to style.css this then fixed the bug. 
+
+![Logo bug on Google Chrome inspect](assets/testing-images/bug-to-fix-logo.JPG)
+![Logo bug on Google Chrome inspect](assets/testing-images/bug-to-fix-logo-fixed.JPG)
