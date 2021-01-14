@@ -96,8 +96,7 @@ h1,h2,h3,h4 {
     font-family: "Andika New Basic", sans-serif;
     font-weight: bolder;
     text-align: center;
-    padding: 10px 0;
-    
+    padding: 10px 0; 
 }
 .game-info {
     text-align: right;
@@ -112,14 +111,12 @@ h1,h2,h3,h4 {
     padding-top: 10px;
     height: 250px;
     overflow: auto;
-
 }
 /*------------------------------------Gallery*/
 .img-container {
     width:50%;
     height: 50%;
     padding: 10px 10px 20px 2.5%;
-    
 }
 /*------------------------------------Social-Events*/
 #social-events {
@@ -282,13 +279,11 @@ footer {
 @media (max-width: 675px) {
     .comments-heading {
     font-size: xx-large;
-    
 }
 .captains-comments, .managers-comments {
     font-size: large;
     text-align: center;
 }
-
 .captains-comments p, .managers-comments p {
         font-size: small;
     }
@@ -315,7 +310,6 @@ footer {
     margin: 0 auto;
     max-width: 65%;
 }
-
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
