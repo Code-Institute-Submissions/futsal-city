@@ -329,10 +329,11 @@ footer {
 }
 
 /*------------------------------------Contact form section*/
-@media (min-width:676px){  
-    .contact-form {
-    height: 440px;
+.contact-section {
+    height: 100vh;
 }
+.contact-form {
+    height: 100%;
 }
 .contact-heading {
     font-weight: 700;
