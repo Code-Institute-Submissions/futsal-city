@@ -6,7 +6,8 @@ I want to build a sleek website, that looks modern and is able to adapt to moder
 
 Often when looking on local teams websites they have a lot of wasted space or the content does not fit into the layout properly. I want to try and maximise space without putting to much stuff onto the screen as many websites can put to much content onto a page and the page can become confusing and the visitor can be put off visiting the site due to the poor layout.
 
-<a href="https://www.dunstabletownfc.co.uk/"> My Local teams website</a>
+<a href="https://www.dunstabletownfc.co.uk/"> Local teams website</a>
+<a href="https://kylelawrencedev.github.io/futsal-city/">My live website </a>
 
 ## Target Audience
 The General Public, club supporters and appealing to Corporate Sponsors.
