@@ -70,14 +70,16 @@ h1,h2,h3,h4 {
 }
 /*------------------------------------Navbar*/
 @media (min-width: 766px) {
-    .justify-content-end {
+    .button-location {
+    -ms-flex-pack: end!important;
+    justify-content: flex-end!important;
     position: absolute;
     top: 50%;
     left: 85%;
 }
 }
 @media (max-width: 765px) {
-    .justify-content-end {
+    .button-location{
     padding-top: 5px;
     -ms-flex-pack: center !important;
     -webkit-box-pack: center !important;
@@ -132,7 +134,7 @@ h1,h2,h3,h4 {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
     width: 31.5%;
-    height: 300px;
+    height: 400px;
     float: left;
     padding: 30px 10px;
     text-align: center;
@@ -155,6 +157,7 @@ h1,h2,h3,h4 {
     #social-events div {
         width: 29%;
         padding: 5px;
+        height: 350px;
     }
     #social-events {
         padding: 0;
