@@ -59,7 +59,7 @@ h1,h2,h3,h4 {
 }
 @media (max-width: 765px) {
     .logo-container {
-        background: url(https://kylelawrencedev.github.io/futsal-city/assets/images/football-logo-background-1195-244.jpg);
+        background: url(../images/football-logo-background-1195-244.jpg);
         display: block;
         margin-left: auto;
         margin-right: auto;
