@@ -71,11 +71,11 @@ h1,h2,h3,h4 {
 /*------------------------------------Navbar*/
 @media (min-width: 766px) {
     .button-location {
-    -ms-flex-pack: end!important;
-    justify-content: flex-end!important;
     position: absolute;
     top: 50%;
     left: 85%;
+    -ms-flex-pack: end!important;
+    justify-content: flex-end!important;
 }
 }
 @media (max-width: 765px) {
