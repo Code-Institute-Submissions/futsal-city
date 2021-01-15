@@ -159,9 +159,11 @@ Using the W3C CSS validator i was able to find a mistake with my code. There was
 
 I then put my html code for each of my pages into the W3C html validator and it came back saying there were no errors for all three pages. This showed me that my code was fine and that my pages had good technical quality for the web. 
 
+## Browsers Used
+
 ### Google Lighthouse 
 
-Using Lighthouse from the inspect page and used the Lighthouse option to test my pages and see how they did. I used Lighthouse to test both on mobile and desktop.
+Using Lighthouse from the inspect page and used the Lighthouse option to test my pages and see how they did. I used Lighthouse to test both on mobile and desktop. Google Lighthouse was used on chrome
 #### Lighthouse Mobile : index.html
 
 ![lighthouse mobile test](assets/testing-images/lighthouse-mobile-test.JPG)
@@ -225,6 +227,7 @@ Making sure the warning shows is important because if the warning did not show t
 Another test was to make sure that when the clubs logo is clicked that the visitor is taken back to the home page and when tested on the contact form page I was taken back to the home page.
 
 # Responsive Pages
+I used Google Chrome Simulator to test the responsiveness of my pages.
 
 All pages needed to be responsive due to the amount of people using their mobile phones as well as laptops and computers. 
 
@@ -239,6 +242,19 @@ And then when in desktop view the text would be split into columns. So there wou
 When on mobile the club news section becomes scroll able if there is a lot of writing. this makes sure all the content fits onto the screen nicely and stops the section from taking up a lot of the screen. 
 
 For the Season 20/21 page the first element is very similar to the first element on the index.html page. And the same needs to happen to this content as did the content in index.html. When on desktop on element will be on the left and one on the right. But when it is on mobile the elements both go to the middle with the text-aligned in the centre. The Last 5 results go on top and the next 5 fixtures go below.
+
+## Responsive Pages Testing
+### Moto 4G
+
+Screen size 360 x 640
+
+![moto-4g index.html top](assets/testing-images/moto-g4-360-640-index-top.JPG) ![moto-4g index.html middle](assets/testing-images/moto-g4-360-640-index-middle.JPG) ![moto-4g index.html bottom](assets/testing-images/moto-g4-360-640-index-bottom.JPG)
+
+![moto-4g season.html top](assets/testing-images/moto-g4-360-640-season-top.JPG) ![moto-4g season.html middle 1](assets/testing-images/moto-g4-360-640-season-middle.JPG)
+
+![moto-4g season.html middle 2](assets/testing-images/moto-g4-360-640-season-middle-2.JPG) ![moto-4g season.html bottom](assets/testing-images/moto-g4-360-640-season-bottom.JPG)
+
+![moto-4g contact.html top](assets/testing-images/moto-g4-360-640-contact-top.JPG) ![moto-4g contact.html bottom](assets/testing-images/moto-g4-360-640-contact-bottom.JPG)
 
 # Deployment to Github 
 * When on GitHub navigate to Futsal-City repository. Once at the repository under the name will be 'Settings', which must be clicked.
