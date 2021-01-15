@@ -6,8 +6,9 @@ I want to build a sleek website, that looks modern and is able to adapt to moder
 
 Often when looking on local teams websites they have a lot of wasted space or the content does not fit into the layout properly. I want to try and maximise space without putting to much stuff onto the screen as many websites can put to much content onto a page and the page can become confusing and the visitor can be put off visiting the site due to the poor layout.
 
-<a href="https://www.dunstabletownfc.co.uk/"> Local teams website</a>
-<a href="https://kylelawrencedev.github.io/futsal-city/">My live website </a>
+[Local teams website](https://www.dunstabletownfc.co.uk/)
+
+[My live website](https://kylelawrencedev.github.io/futsal-city/)
 
 ## Target Audience
 The General Public, club supporters and appealing to Corporate Sponsors.
@@ -136,18 +137,20 @@ Add another page where supporters can buy tickets for upcoming games. Adding thi
 
 
 # Wireframes: 
-assets/wireframes/milestone.project.wireframes.pdf
+![Wireframes](assets/wireframes/milestone.project.wireframes.pdf)
+
 
 # Images
-1. Football Logo Image by <a href="https://www.freepik.com/vectors/background">Background vector created by vectortwins - www.freepik.com</a>
-1. Football stadium for social events by <a href="https://pixabay.com/users/pexels-2286921/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1867992">Pexels</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1867992">Pixabay</a>
-1. 4 images on index.html page for image gallery by <a href="https://pixabay.com/users/phillipkofler-715497/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5754867">Phillip Kofler</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5754867">Pixabay</a>
+1. [Football Logo-Background vector created by vectortwins ](https://www.freepik.com/vectors/background)
+1. [4 images on index.html page for image gallery by Phillip Kofler](https://pixabay.com/users/phillipkofler-715497/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5754867)
+1. [Football stadium for social-events by jplenio](https://pixabay.com/users/jplenio-7645255/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3404535)
 
 # Testing Writeup
 ## Websites used to validate 
 ### W3C HTML & CSS
-<a href="https://validator.w3.org/#validate_by_input">W3C HTML.</a>
-<a href="https://jigsaw.w3.org/css-validator/#validate_by_input">W3C CSS.</a>
+[W3C HTML.](https://validator.w3.org/#validate_by_input)
+
+[W3C CSS.](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 W3C is used to validate HTML and CSS.
 Using the W3C CSS validator i was able to find a mistake with my code. There was a warning of ".section-header	Value Error : padding-top Too many values or values are not recognized : 10px 0". I had by accident not changed padding-top to just padding.
@@ -170,8 +173,9 @@ Using Lighthouse from the inspect page and used the Lighthouse option to test my
 
 When using lighthouse i was able to see that my image file sizes were pretty large as I had not compressed their sizes. Using a free image compressor I will be able to make their file sizes smaller, which in turn should improve the performance.
 
-<a href="https://web.dev/external-anchors-use-rel-noopener/?utm_source=lighthouse&utm_medium=devtools">'a' tag performance improvement </a>
-<a href="https://web.dev/button-name/?utm_source=lighthouse&utm_medium=devtools">aria-label accessibility improvement </a>
+['a' tag performance improvement](https://web.dev/external-anchors-use-rel-noopener/?utm_source=lighthouse&utm_medium=devtools)
+
+[aria-label accessibility improvement](https://web.dev/button-name/?utm_source=lighthouse&utm_medium=devtools)
 
 ## 'a' Tag Improvement
 ![season.html mobile 'a' links](assets/testing-images/season-html-lighthouse-mobile-a-links.JPG) ![season.html mobile 'a' links passed](assets/testing-images/season-html-lighthouse-mobile-a-links-passed.JPG)
@@ -199,8 +203,7 @@ Whilst I was busy improving the lighthouse score I was also able to improve and 
 
 By improving the sites accessibility I was also able to improve the code for the headings. The headers had not been put into the proper order as i went from having h1 to h3 heading and after reading the google devs website I found out that this was a typical trait for new programmers. I was then able to properly order the headings and I then styled the headings in style.css and this made improved the code as well as the sites lighthouse performance. 
 
-
-<a href="https://autoprefixer.github.io/" >Auto-Fixer </a>
+[Auto-Fixer](https://autoprefixer.github.io/)
 
 # Test Cases
 
@@ -247,7 +250,7 @@ For the Season 20/21 page the first element is very similar to the first element
 * Then click save.
 
 "If you choose the /docs folder on any branch as your publishing source, then later remove the /docs folder from that branch in your repository, your site won't build and you'll get a page build error message for a missing /docs folder." 
-<a href="https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site"> Configuring a publishing source </a>
+[Configuring a publishing source](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 
 # Cloning my repository
 
@@ -256,7 +259,7 @@ For the Season 20/21 page the first element is very similar to the first element
 * When clicked a drop-down menu will appear. 
 * Click on "Open with GitHub Desktop"
 
-<a href="https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/cloning-a-repository-from-github-to-github-desktop"> Cloning a repository from GitHub to GitHub Desktop</a>
+[Cloning a repository from GitHub to GitHub Desktop](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/cloning-a-repository-from-github-to-github-desktop)
 
 # Bugs
 
