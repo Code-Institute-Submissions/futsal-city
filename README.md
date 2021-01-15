@@ -256,6 +256,22 @@ Screen size 360 x 640
 
 ![moto-4g contact.html top](assets/testing-images/moto-g4-360-640-contact-top.JPG) ![moto-4g contact.html bottom](assets/testing-images/moto-g4-360-640-contact-bottom.JPG)
 
+### Pixel 2
+
+Screen size 411 x 731
+
+![pixel-2 index.html top](assets/testing-images/pixel-2-411-731-index-top.JPG) ![pixel-2 index.html middle](assets/testing-images/pixel-2-411-731-index-middle.JPG)
+
+![pixel-2 index.html bottom](assets/testing-images/pixel-2-411-731-index-bottom.JPG) ![pixel-2 index.html menu](assets/testing-images/pixel-2-411-731-index-menu.JPG)
+
+![pixel-2 season.html top](assets/testing-images/pixel-2-411-731-season-top.JPG) ![pixel-2 season.html middle 1](assets/testing-images/pixel-2-411-731-season-middle.JPG)
+
+![pixel-2 season.html bottom](assets/testing-images/pixel-2-411-731-season-bottom.JPG) ![pixel-2 season.html menu](assets/testing-images/pixel-2-411-731-season-menu.JPG)
+
+![pixel-2 contact.html top](assets/testing-images/pixel-2-411-731-contact-top.JPG) ![pixel-2 contact.html bottom](assets/testing-images/pixel-2-411-731-contact-bottom.JPG) ![pixel-2 contact.html menu](assets/testing-images/pixel-2-411-731-contact-menu.JPG)
+
+![pixel-2 contact.html name warning](assets/testing-images/pixel-2-411-731-contact-name-warning.JPG) ![pixel-2 contact.html email warning](assets/testing-images/pixel-2-411-731-contact-email-warning.JPG) ![pixel-2 contact.html](assets/testing-images/pixel-2-411-731-contact-text-warning.JPG)
+
 # Deployment to Github 
 * When on GitHub navigate to Futsal-City repository. Once at the repository under the name will be 'Settings', which must be clicked.
 * When on the settings pages, Start to scroll down.
