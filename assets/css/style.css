@@ -121,6 +121,9 @@ leaving a gap lowers the chances of the visitor clicking the club-logo, which wh
     overflow: auto;
 }
 /*------------------------------------Gallery*/
+/*------------------------------------Lowering padding for images to make them bigger on smaller devices,
+images were looking to small on smaller devices, making it hard to see them nicely.Lowering the padding means
+the images can take up more space on the page, making the images easier to see.*/
 .img-container {
     width:50%;
     height: 50%;
