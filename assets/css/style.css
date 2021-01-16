@@ -208,7 +208,7 @@ the content becomes cramped up. Got the idea from @JimLynx_lead in slack*/
         font-weight: 200;
     }
 }
-@media (max-width: 320px) {
+@media (max-width: 380px) {
     #social-events {
         padding: 10px;
     }
