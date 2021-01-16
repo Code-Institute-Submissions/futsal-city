@@ -307,6 +307,10 @@ them being below each other and needing to take up more space horizontally*/
     }
 }
 /*------------------------------------Contact form section*/
+/*------------------------------------contact-section I got help to make the section take up the whole page(https://dev.to/lennythedev/css-gotcha-how-to-fill-page-with-a-div-270j)
+The link above said to set the sections height to 100vh. 1vh is equal to 1% of the users viewport height,
+setting it to 100vh sets the whole section to take up the full height of the page as this is the user maximum viewport.
+*/
 .contact-section {
     height: 100vh;
 }
