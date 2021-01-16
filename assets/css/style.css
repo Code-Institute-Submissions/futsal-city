@@ -127,6 +127,8 @@ leaving a gap lowers the chances of the visitor clicking the club-logo, which wh
     padding: 10px 10px 20px 2.5%;
 }
 /*------------------------------------Social-Events*/
+/*------------------------------------Sets the background image for the social-events section on index.html page.
+Background position put to left due to the stadium being to the left of the image and I wanted that to be the main focus and not the lights from the traffic*/
 #social-events {
     background-image: url(../images/football-stadium-3404535_640.jpg);
     background-repeat: no-repeat;
@@ -159,6 +161,9 @@ leaving a gap lowers the chances of the visitor clicking the club-logo, which wh
 #social-events p {
     font-size: x-large;
 }
+/*------------------------------------Makes font sizes responsive for smaller devices. Also changes the width of the div from 31.5% to 29% due to the smaller screen,
+and the change in font sizes. Keeping the div width to 31.5% moves the last social-events div to the next line. The div size also changes from 400px in height to 350px.
+This change in size is because at 400px the div was to big on smaller devices and left to much space between the end of the section and the divs*/
 @media (max-width: 765px) {
     #social-events div {
         width: 29%;
