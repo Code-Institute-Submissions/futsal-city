@@ -116,7 +116,7 @@ leaving a gap lowers the chances of the visitor clicking the club-logo, which wh
 /*------------------------------------Club News*/
 .club-news {
     font-weight: 500;
-    padding-top: 10px;
+    padding: 10px 10px;
     height: 250px;
     overflow: auto;
 }
@@ -315,6 +315,7 @@ them being below each other and needing to take up more space horizontally*/
 /*------------------------------------Comments section*/
 .club-comments {
     height: 600px;
+    padding: 0 20px;
 }
 .club-comments p {
     padding: 10px 0 0;
