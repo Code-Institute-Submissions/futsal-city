@@ -15,6 +15,9 @@ section {
 .website-header, footer {
     background-color: #BF9000;
 }
+.footer-link-colour {
+    color: white;
+}
 /*------------------------------------General*/
 .centre-heading {
     text-align: center;
