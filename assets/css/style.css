@@ -71,6 +71,8 @@ I went with 100 x 100px for the logo because it needed to be a square and when i
     }
 }
 /*------------------------------------Navbar*/
+/*------------------------------------This code moves the position of the dropdown button to the right side of the screen and into the middle. 
+This makes it easier for visitors to click the menu as it is seperaye from the club-logo and has no other clickable links around it */
 @media (min-width: 766px) {
     .button-location {
     position: absolute;
@@ -80,6 +82,8 @@ I went with 100 x 100px for the logo because it needed to be a square and when i
     justify-content: flex-end!important;
 }
 }
+/*------------------------------------This code moves the dropdown button to the centre of the page on smaller devives and leaves a gap between it and the logo,
+leaving a gap lowers the chances of the visitor clicking the club-logo, which when clicked goes back to the home page*/
 @media (max-width: 765px) {
     .button-location{
     padding-top: 5px;
