@@ -223,7 +223,6 @@ footer {
     text-align: center;
     padding-top: 30px;
 }
-
 .social-networks li {
     display: inline;
 }
@@ -238,13 +237,16 @@ footer {
     padding: 20px;
 }
 /*------------------------------------season.html*/
+/*------------------------------------Positions last-results to the left and next-fixtres to the right. 
+Next-fixtures position set to relative and bottom set to 80%. 80% puts the heading inline with the last-results heading
+Width for both set to 50% as they are both on the same line and need to look equal.*/
 /*------------------------------------Results-Fixtures*/
 .results-fixtures {
     height: 400px;
 }
 .results-fixtures p {
-        padding: 10px 0 0;
-    }
+    padding: 10px 0 0;
+ }
 .last-results {
    padding: 10px 0;
    position: relative;
@@ -259,11 +261,13 @@ footer {
     text-align: center;
     width: 50%;
 }
+/*------------------------------------Height of section increases by 200% due to next-fixtures going below last-results.
+Due to next-fixtures going below last-results the total space required increases by 200%, both divs now take up 100% of the width due to
+them being below each other and needing to take up more space horizontally*/
 @media (max-width: 675px) {
     .results-fixtures {
         height: 200%;
     }
-    
     .next-fixtures, .last-results {
         position: static;
         width: 100%;
