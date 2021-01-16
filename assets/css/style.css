@@ -188,6 +188,32 @@ This change in size is because at 400px the div was to big on smaller devices an
         font-weight: 200;
     }
 }
+@media (max-width: 320px) {
+    #social-events div {
+        width: 28%;
+        height: 370px;
+    }
+    #social-events {
+        padding: 0;
+    }
+    #social-events h1 {
+        font-size: small;
+    }
+    #social-events h2 {
+        font-size: x-large;
+    }
+    #social-events h3 {
+        font-size: smaller;
+    }
+    #social-events h4 {
+        font-size: x-small;
+    }
+    #social-events p {
+        padding: 5px 0;
+        font-size: smaller;
+        font-weight: 200;
+    }
+}
 /*------------------------------------Footer*/
 @media (max-width: 765px) {
     footer {
