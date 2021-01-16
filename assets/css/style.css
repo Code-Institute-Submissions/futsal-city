@@ -151,13 +151,14 @@ Background position put to left due to the stadium being to the left of the imag
     overflow: hidden;
     padding: 10px 0 0 10px;
 }
-#social-events div {
+.social-events-responsive {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
     width: 31.5%;
     height: 400px;
     float: left;
-    padding: 30px 10px;
+    padding: 10px;
+    padding-top: 5%;
     text-align: center;
     margin: 6.5px;
     font-size: large;
@@ -174,56 +175,56 @@ Background position put to left due to the stadium being to the left of the imag
 #social-events p {
     font-size: x-large;
 }
-/*------------------------------------Makes font sizes responsive for smaller devices. Also changes the width of the div from 31.5% to 29% due to the smaller screen,
-and the change in font sizes. Keeping the div width to 31.5% moves the last social-events div to the next line. The div size also changes from 400px in height to 350px.
-This change in size is because at 400px the div was to big on smaller devices and left to much space between the end of the section and the divs*/
+
 @media (max-width: 765px) {
-    #social-events div {
-        width: 29%;
-        padding: 5px;
-        height: 350px;
-    }
+.social-events-responsive {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 97%;
+    padding: 15px;
+    margin: 6px;
+    height: 250px;
+}
     #social-events {
-        padding: 0;
+        padding: 10px;
     }
     #social-events h1 {
-        font-size: large;
-    }
-    #social-events h2 {
         font-size: x-large;
     }
-    #social-events h3, #social-events h4 {
-        font-size: medium;
+    #social-events h2 {
+        font-size: larger;
+    }
+    #social-events h3 {
+        font-size: larger;
+    }
+    #social-events h4 {
+        font-size: smaller;
     }
     #social-events p {
         padding: 5px 0;
-        font-size: medium;
+        font-size: larger;
         font-weight: 200;
     }
 }
 @media (max-width: 320px) {
-    #social-events div {
-        width: 28%;
-        height: 370px;
-    }
     #social-events {
-        padding: 0;
+        padding: 10px;
     }
     #social-events h1 {
-        font-size: small;
+        font-size: x-large;
     }
     #social-events h2 {
         font-size: x-large;
     }
     #social-events h3 {
-        font-size: smaller;
+        font-size: large;
     }
     #social-events h4 {
-        font-size: x-small;
+        font-size: small;
     }
     #social-events p {
         padding: 5px 0;
-        font-size: smaller;
+        font-size: medium;
         font-weight: 200;
     }
 }
