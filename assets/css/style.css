@@ -57,6 +57,8 @@ h1,h2,h3,h4 {
 .website-header {
     padding: 10px;
 }
+/*------------------------------------This css resizes the club-logo to be smaller when on a smaller device, if the image stayed the same size it would take up to much space on the screen
+I went with 100 x 100px for the logo because it needed to be a square and when it is smaller than this it does not look appealing, the logo ends uo looking to small*/
 @media (max-width: 765px) {
     .logo-container {
         background: url(../images/football-logo-background-1195-244.jpg);
