@@ -272,6 +272,14 @@ Screen size 411 x 731
 
 ![pixel-2 contact.html name warning](assets/testing-images/pixel-2-411-731-contact-name-warning.JPG) ![pixel-2 contact.html email warning](assets/testing-images/pixel-2-411-731-contact-email-warning.JPG) ![pixel-2 contact.html](assets/testing-images/pixel-2-411-731-contact-text-warning.JPG)
 
+### Samsung Galaxy fold
+
+Screen size 280 x 653
+
+![Galaxy fold unresponsive index.html](assets/testing-images/samsung-fold-280-653-social-events.JPG) ![Galaxy fold responsiveness improved](assets/testing-images/samsung-fold-280-653-social-events-updated.JPG)
+
+Whilst testing the responsiveness of my site i noticed that when the site was on a Galaxy fold the social-events section would push the content down causing two of the divs to stay on the same line whilst the third div went below the other two. The font was also to large and it was not fitting into each div properly.
+I changed the width from 29% to 28% as well as changing the sizing of the font to fit look more appealing. Making sure your site looks good on all devices is important and with the chances of foldable phones becoming more popular it is important a site is ready for the potential demand.
 # Deployment to Github 
 * When on GitHub navigate to Futsal-City repository. Once at the repository under the name will be 'Settings', which must be clicked.
 * When on the settings pages, Start to scroll down.
