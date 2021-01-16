@@ -86,7 +86,7 @@ This makes it easier for visitors to click the menu as it is seperaye from the c
 leaving a gap lowers the chances of the visitor clicking the club-logo, which when clicked goes back to the home page*/
 @media (max-width: 765px) {
     .button-location{
-    padding-top: 5px;
+    padding-top: 10px;
     -ms-flex-pack: center !important;
     -webkit-box-pack: center !important;
             justify-content: center !important;
