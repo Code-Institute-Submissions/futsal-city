@@ -50,7 +50,7 @@ For the Season 20/21 page the first element is very similar to the first element
 ## Responsive Pages Testing
 * DevTools - Screen sizes tested widths: Galaxy Fold(280px) | Moto 4G(360px) | Pixel 2(411px) | iPhone 6/7/8(375px) | iPad(768px) | iPad Pro(1024px) | Surface Duo(540px) | 
 * Browsers Used - Opera | Google chrome | Firefox | Safari on iphone
-* Physical Devices tested on : Samsung a70 | Samsung a20e | iPhone 7 | Huawei
+* Physical Devices tested on : Samsung a70 | Samsung a20e | iPhone 7 | Huawei p20
 
 ### Moto 4G
 
