@@ -177,3 +177,18 @@ When importing url for google fonts, the url was editted. Got a new url and adde
 
 ![Logo bug on Google Chrome inspect](assets/testing-images/bug-to-fix-logo.JPG)
 ![Logo bug on Google Chrome inspect](assets/testing-images/bug-to-fix-logo-fixed.JPG)
+
+# Comments from code
+
+* Making the header sticky makes it easier for the visitor to change pages by always having the menu at the top of the page,
+the club logo also has css that means when clicked the user will go back to the home page
+* Did this bit of code twice as i am not sure how to properly code and style it to look how I wanted it to look. I needed the content to be slip in half when on large screens and then to be in the middle when on smaller screens.This is why i have change the code below to be one div, whereas the code above is in two seperate divs (Comment from Next-fixture section in index.html)
+* I went with this layout because it is clean and adds some extra colour to the page. I got the inspiration from the Love Running Project, and thought this is the best way to show off events that are coming up as it shows all the keep information in a snippet and does not take up unneccessary space. (Comment from social-events section in index.html)
+* I want the visitor to always be able to click the link for the stadiums address as this will help them with navigating to the stadium. I saw how the footer looked in the Resume Miniproject and thought it would suit what I wanted to achieve in this code. Having social-links is essential for any footer and all new social-media accounts can easily be added to this code when the club opens a new account (Comment for footer on all pages).
+* This code starts with the date and then has spaces on either side of the '-' to improve the visual appearance. Each result shows a different fontawesome icon, a draw="fa-equal", win="fa-check-cirlce", loss="fa-times-circle". Adding these fontawesome icons improve the visual representation of each results and gives the visitor the ability to only need to glance at the results in the future due to them knowing what each icon means (Comments for results-fixtures in season.html).
+* Each stadium has a hyperlink for visitors to click on so that can easily navigate to the stadium, the hyperlinks below go to google maps and they open in a separate window (Comment for links to stadiums in season.html)
+* This is just a simple form for visitors to full out if they wish to get into contact with the club. It does not require visitors to give up a lot of information on the bare essentials in order for the club to respond back to them. I used the code from User Centric Frontend Development as inspiration. In the future there can be further optons added to the form such as marketing preferences and opting in to receive updates from the club for future fixtures or social-events. (Comment for contact form section in contact.html").
+
+
+
+
