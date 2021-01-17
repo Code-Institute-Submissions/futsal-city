@@ -16,7 +16,7 @@ section {
     background-color: #BF9000;
 }
 .footer-link-colour {
-    color: white;
+    color: #131313;
 }
 /*------------------------------------General*/
 .centre-heading {
@@ -259,11 +259,11 @@ footer {
     margin-left: -10px;
 }
 .footer-link-colour:hover{
-    color: #131313;
+    color: #fafafa;
     text-decoration: none;
 }
 .footer-link-colour i:hover{
-    color: #131313;
+    color: #fafafa;
     text-decoration: none;
 }
 .social-networks {
@@ -276,7 +276,7 @@ footer {
     font-size: 200%;
     margin-right: 1%;
     padding: 1%;
-    color: #fafafa;
+    color: #131313;
     text-align: center;
 }
 #footer-details {
