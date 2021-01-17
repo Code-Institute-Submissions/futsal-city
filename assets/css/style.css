@@ -296,7 +296,7 @@ Width for both set to 50% as they are both on the same line and need to look equ
 .last-results {
    padding: 10px 0;
    position: relative;
-   top: 3%;
+   top: 1%;
    text-align: center;
    width: 50%;
 }
