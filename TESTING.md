@@ -119,6 +119,14 @@ Using the W3C CSS validator i was able to find a mistake with my code. There was
 
 I then put my html code for each of my pages into the W3C html validator and it came back saying there were no errors for all three pages. This showed me that my code was fine and that my pages had good technical quality for the web. 
 
+# Lighthouse
+
+By getting the best lighthouse score possible will help improve the sites reach ability as the site looks good to the search engine and will be higher up on the search engines search pages.
+
+Whilst I was busy improving the lighthouse score I was also able to improve and test the site. This included testing all the sites links when I was improving the performance and security of the site for the 'a' tags.
+
+By improving the sites accessibility I was also able to improve the code for the headings. The headers had not been put into the proper order as i went from having h1 to h3 heading and after reading the google devs website I found out that this was a typical trait for new programmers. I was then able to properly order the headings and I then styled the headings in style.css and this made improved the code as well as the sites lighthouse performance. 
+
 ### Google Lighthouse 
 
 Using Lighthouse from the inspect page and used the Lighthouse option to test my pages and see how they did. I used Lighthouse to test both on mobile and desktop. Google Lighthouse was used on chrome
@@ -130,10 +138,28 @@ Using Lighthouse from the inspect page and used the Lighthouse option to test my
 
 ![lighthouse mobile best practice](assets/testing-images/lighthouse-mobile-best-prac.JPG)
  
-
 When using lighthouse i was able to see that my image file sizes were pretty large as I had not compressed their sizes. Using a free image compressor I will be able to make their file sizes smaller, which in turn should improve the performance.
 
 ['a' tag performance improvement](https://web.dev/external-anchors-use-rel-noopener/?utm_source=lighthouse&utm_medium=devtools)
 
 [aria-label accessibility improvement](https://web.dev/button-name/?utm_source=lighthouse&utm_medium=devtools)
 
+## 'a' Tag Improvement
+![season.html mobile 'a' links](assets/testing-images/season-html-lighthouse-mobile-a-links.JPG) ![season.html mobile 'a' links passed](assets/testing-images/season-html-lighthouse-mobile-a-links-passed.JPG)
+
+![Lighthouse mobile 'a' links](assets/testing-images/lighthouse-mobile-a-links.JPG) ![Lighthouse mobile 'a' links passed](assets/testing-images/lighthouse-mobile-a-links-passed.JPG)
+Adding rel-noreffer to the 'a' tags for links help to add to the security of the site. As stated on the google devs website, "When you link to a page on another site using the target="_blank" attribute, you can expose your site to performance and security issues:
+
+The other page may run on the same process as your page. If the other page is running a lot of JavaScript, your page's performance may suffer.
+The other page can access your window object with the window.opener property. This may allow the other page to redirect your page to a malicious URL.
+Adding rel="noopener" or rel="noreferrer" to your target="_blank" links avoids these issues." Improving the sites performance and security is always important. And by improving security site visitors will be safer and the site will be less susceptible to malicious redirects when clicked.
+
+## Site SEO
+![index.html mobile seo](assets/testing-images/index-html-lighthouse-mobile-seo.JPG) ![index.html mobile seo passed](assets/testing-images/index-html-lighthouse-mobile-seo-passed.JPG)
+
+![Lighthouse mobile seo](assets/testing-images/lighthouse-mobile-seo.JPG)
+
+
+By adding a better description to the link text helps the search engine better understand what the link is for. This also improves the appearance of the site for visitors as they know what the link goes to. 
+
+[Auto-Fixer](https://autoprefixer.github.io/)
