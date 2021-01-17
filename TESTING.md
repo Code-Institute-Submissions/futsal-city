@@ -86,3 +86,19 @@ Screen size 280 x 653
 
 Whilst testing the responsiveness of my site i noticed that when the site was on a Galaxy fold the social-events section would push the content down causing two of the divs to stay on the same line whilst the third div went below the other two. The font was also to large and it was not fitting into each div properly.
 I changed the width from 29% to 28% as well as changing the sizing of the font to fit look more appealing. Making sure your site looks good on all devices is important and with the chances of foldable phones becoming more popular it is important a site is ready for the potential demand.
+
+# Test Cases
+
+I checked to make sure all links worked and opened onto another page. I was able to see that I had not added the target=_blank to the links for the locations on the index.html page for the social events. The links opened in the same window.
+
+![_blank added](assets/testing-images/index-html-_blank-added.JPG) ![_blank added](assets/testing-images/index-html-_blank-not-open.JPG)
+
+All links for next 5 fixtures on the Season20/21 page open in a new window, and all Home matches go to the same location. All away games go to different locations. The links in the footer all open up in a new window and the stadium address in the footer opens up to the same address as the Home game links. The social-media icons all open to their respective sites in a new window. 
+
+When you go to send a message on the contact page a warning comes up saying that you need to fill-in that specific section of the form.
+
+![Contact Page Warning](assets/testing-images/contact-page-warning.JPG)
+
+Making sure the warning shows is important because if the warning did not show this may lead to visitors becoming annoyed because they might not know what they are doing wrong. 
+
+Another test was to make sure that when the clubs logo is clicked that the visitor is taken back to the home page and when tested on the contact form page I was taken back to the home page.
