@@ -29,3 +29,60 @@ All internal links load the required page without opening a new tab in the brows
 ### Body Contact Page
 * Confirmed that when a either "Full Name", "Email" and "Type your message here" are not filled in that an error message shows up for the relevent section of form say, "Please fill in this field"
 * Confirmed when submit message button is clicked the page reloads and the fields are left empty again. 
+
+# Responsive Pages
+I used Google Chrome Simulator to test the responsiveness of my pages.
+
+All pages needed to be responsive due to the amount of people using their mobile phones as well as laptops and computers. 
+
+Header responsiveness when on mobile the elements in the header shift to the middle of the screen with the logo above the dropdown menu.
+
+For index.html this meant the first element, Next Fixture needed to be responsive as the layout looked horrible when it stayed the same on mobile as when on desktop. When on mobile the text needed to be aligned in the centre as this looked more visually appealing. 
+
+assets/testing-images/index-html-next-fixture-mobile.JPG. 
+
+And then when in desktop view the text would be split into columns. So there would be two pieces of text on each side of the desktop screen. With the text aligned to the left and right respectively.
+
+When on mobile the club news section becomes scroll able if there is a lot of writing. this makes sure all the content fits onto the screen nicely and stops the section from taking up a lot of the screen. 
+
+For the Season 20/21 page the first element is very similar to the first element on the index.html page. And the same needs to happen to this content as did the content in index.html. When on desktop on element will be on the left and one on the right. But when it is on mobile the elements both go to the middle with the text-aligned in the centre. The Last 5 results go on top and the next 5 fixtures go below.
+
+## Responsive Pages Testing
+* DevTools - Screen sizes tested widths: Galaxy Fold(280px) | Moto 4G(360px) | Pixel 2(411px) | iPhone 6/7/8(375px) | iPad(768px) | iPad Pro(1024px) | Surface Duo(540px) | 
+
+### Moto 4G
+
+Screen size 360 x 640
+
+![moto-4g index.html top](assets/testing-images/moto-g4-360-640-index-top.JPG) ![moto-4g index.html middle](assets/testing-images/moto-g4-360-640-index-middle.JPG) ![moto-4g index.html bottom](assets/testing-images/moto-g4-360-640-index-bottom.JPG)
+
+![moto-4g season.html top](assets/testing-images/moto-g4-360-640-season-top.JPG) ![moto-4g season.html middle 1](assets/testing-images/moto-g4-360-640-season-middle.JPG)
+
+![moto-4g season.html middle 2](assets/testing-images/moto-g4-360-640-season-middle-2.JPG) ![moto-4g season.html bottom](assets/testing-images/moto-g4-360-640-season-bottom.JPG)
+
+![moto-4g contact.html top](assets/testing-images/moto-g4-360-640-contact-top.JPG) ![moto-4g contact.html bottom](assets/testing-images/moto-g4-360-640-contact-bottom.JPG)
+
+### Pixel 2
+
+Screen size 411 x 731
+
+![pixel-2 index.html top](assets/testing-images/pixel-2-411-731-index-top.JPG) ![pixel-2 index.html middle](assets/testing-images/pixel-2-411-731-index-middle.JPG)
+
+![pixel-2 index.html bottom](assets/testing-images/pixel-2-411-731-index-bottom.JPG) ![pixel-2 index.html menu](assets/testing-images/pixel-2-411-731-index-menu.JPG)
+
+![pixel-2 season.html top](assets/testing-images/pixel-2-411-731-season-top.JPG) ![pixel-2 season.html middle 1](assets/testing-images/pixel-2-411-731-season-middle.JPG)
+
+![pixel-2 season.html bottom](assets/testing-images/pixel-2-411-731-season-bottom.JPG) ![pixel-2 season.html menu](assets/testing-images/pixel-2-411-731-season-menu.JPG)
+
+![pixel-2 contact.html top](assets/testing-images/pixel-2-411-731-contact-top.JPG) ![pixel-2 contact.html bottom](assets/testing-images/pixel-2-411-731-contact-bottom.JPG) ![pixel-2 contact.html menu](assets/testing-images/pixel-2-411-731-contact-menu.JPG)
+
+![pixel-2 contact.html name warning](assets/testing-images/pixel-2-411-731-contact-name-warning.JPG) ![pixel-2 contact.html email warning](assets/testing-images/pixel-2-411-731-contact-email-warning.JPG) ![pixel-2 contact.html](assets/testing-images/pixel-2-411-731-contact-text-warning.JPG)
+
+### Samsung Galaxy fold
+
+Screen size 280 x 653
+
+![Galaxy fold unresponsive index.html](assets/testing-images/samsung-fold-280-653-social-events.JPG) ![Galaxy fold responsiveness improved](assets/testing-images/samsung-fold-280-653-social-events-updated.JPG)
+
+Whilst testing the responsiveness of my site i noticed that when the site was on a Galaxy fold the social-events section would push the content down causing two of the divs to stay on the same line whilst the third div went below the other two. The font was also to large and it was not fitting into each div properly.
+I changed the width from 29% to 28% as well as changing the sizing of the font to fit look more appealing. Making sure your site looks good on all devices is important and with the chances of foldable phones becoming more popular it is important a site is ready for the potential demand.
