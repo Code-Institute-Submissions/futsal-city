@@ -258,12 +258,16 @@ footer {
     margin-right: -10px;
     margin-left: -10px;
 }
-.stadium-address{
-    font-weight: 700;
+.footer-link-colour:hover{
+    color: #131313;
+    text-decoration: none;
+}
+.footer-link-colour i:hover{
+    color: #131313;
+    text-decoration: none;
 }
 .social-networks {
     text-align: center;
-    padding-top: 30px;
 }
 .social-networks li {
     display: inline;
@@ -272,7 +276,7 @@ footer {
     font-size: 200%;
     margin-right: 1%;
     padding: 1%;
-    color: #131313;
+    color: #fafafa;
     text-align: center;
 }
 #footer-details {
