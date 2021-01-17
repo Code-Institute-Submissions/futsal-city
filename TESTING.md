@@ -49,6 +49,8 @@ For the Season 20/21 page the first element is very similar to the first element
 
 ## Responsive Pages Testing
 * DevTools - Screen sizes tested widths: Galaxy Fold(280px) | Moto 4G(360px) | Pixel 2(411px) | iPhone 6/7/8(375px) | iPad(768px) | iPad Pro(1024px) | Surface Duo(540px) | 
+* Browsers Used - Opera | Google chrome | Firefox | Safari on iphone
+* Physical Devices tested on : Samsung a70 | Samsung a20e | iPhone 7 | Huawei
 
 ### Moto 4G
 
@@ -102,3 +104,36 @@ When you go to send a message on the contact page a warning comes up saying that
 Making sure the warning shows is important because if the warning did not show this may lead to visitors becoming annoyed because they might not know what they are doing wrong. 
 
 Another test was to make sure that when the clubs logo is clicked that the visitor is taken back to the home page and when tested on the contact form page I was taken back to the home page.
+
+# Testing Writeup
+## Websites used to validate 
+### W3C HTML & CSS
+[W3C HTML.](https://validator.w3.org/#validate_by_input)
+
+[W3C CSS.](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
+W3C is used to validate HTML and CSS.
+Using the W3C CSS validator i was able to find a mistake with my code. There was a warning of ".section-header	Value Error : padding-top Too many values or values are not recognized : 10px 0". I had by accident not changed padding-top to just padding.
+
+![code warning for css](assets/testing-images/code-warning-for-css.JPG)
+
+I then put my html code for each of my pages into the W3C html validator and it came back saying there were no errors for all three pages. This showed me that my code was fine and that my pages had good technical quality for the web. 
+
+### Google Lighthouse 
+
+Using Lighthouse from the inspect page and used the Lighthouse option to test my pages and see how they did. I used Lighthouse to test both on mobile and desktop. Google Lighthouse was used on chrome
+#### Lighthouse Mobile : index.html
+
+![lighthouse mobile test](assets/testing-images/lighthouse-mobile-test.JPG)
+
+![lighthouse mobile test performance](assets/testing-images/lighthouse-mobile-test-performance.JPG) ![lighthouse mobile accessibility](assets/testing-images/lighthouse-mobile-acces.JPG)
+
+![lighthouse mobile best practice](assets/testing-images/lighthouse-mobile-best-prac.JPG)
+ 
+
+When using lighthouse i was able to see that my image file sizes were pretty large as I had not compressed their sizes. Using a free image compressor I will be able to make their file sizes smaller, which in turn should improve the performance.
+
+['a' tag performance improvement](https://web.dev/external-anchors-use-rel-noopener/?utm_source=lighthouse&utm_medium=devtools)
+
+[aria-label accessibility improvement](https://web.dev/button-name/?utm_source=lighthouse&utm_medium=devtools)
+
