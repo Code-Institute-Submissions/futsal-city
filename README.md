@@ -189,6 +189,13 @@ the club logo also has css that means when clicked the user will go back to the 
 * Each stadium has a hyperlink for visitors to click on so that can easily navigate to the stadium, the hyperlinks below go to google maps and they open in a separate window (Comment for links to stadiums in season.html)
 * This is just a simple form for visitors to full out if they wish to get into contact with the club. It does not require visitors to give up a lot of information on the bare essentials in order for the club to respond back to them. I used the code from User Centric Frontend Development as inspiration. In the future there can be further optons added to the form such as marketing preferences and opting in to receive updates from the club for future fixtures or social-events. (Comment for contact form section in contact.html").
 
+# Comments from CSS
 
-
-
+* This css resizes the club-logo to be smaller when on a smaller device, if the image stayed the same size it would take up to much space on the screen. I went with 100 x 100px for the logo because it needed to be a square and when it is smaller than this it does not look appealing, the logo ends uo looking to small (logo.container)
+* This code moves the position of the dropdown button to the right side of the screen and into the middle. This makes it easier for visitors to click the menu as it is seperaye from the club-logo and has no other clickable links around it (Navbar)
+* This code moves the dropdown button to the centre of the page on smaller devives and leaves a gap between it and the logo, leaving a gap lowers the chances of the visitor clicking the club-logo, which when clicked goes back to the home page (button.location)
+* Lowering padding for images to make them bigger on smaller devices, images were looking to small on smaller devices, making it hard to see them nicely.Lowering the padding means the images can take up more space on the page, making the images easier to see (img.container)
+* Sets the background image for the social-events section on index.html page. Background position put to left due to the stadium being to the left of the image and I wanted that to be the main focus and not the lights from the traffic (social-events)
+* This code changes the divs from being aligned vertically next to each other to being aligned horizontally below each other. This is because when they are aligned vertically next to each other on smaller screens the content becomes cramped up. Got the idea from @JimLynx_lead in slac. (social-events-responsive)
+* Positions last-results to the left and next-fixtres to the right. Next-fixtures position set to relative and bottom set to 80%. 80% puts the heading inline with the last-results heading Width for both set to 50% as they are both on the same line and need to look equal (last-results)
+* Height of section increases by 200% due to next-fixtures going below last-results. Due to next-fixtures going below last-results the total space required increases by 200%, both divs now take up 100% of the width due to them being below each other and needing to take up more space horizontally (results-fixtures responsive)
