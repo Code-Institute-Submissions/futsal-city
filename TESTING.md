@@ -48,7 +48,7 @@ When on mobile the club news section becomes scroll able if there is a lot of wr
 For the Season 20/21 page the first element is very similar to the first element on the index.html page. And the same needs to happen to this content as did the content in index.html. When on desktop on element will be on the left and one on the right. But when it is on mobile the elements both go to the middle with the text-aligned in the centre. The Last 5 results go on top and the next 5 fixtures go below.
 
 ## Responsive Pages Testing
-* DevTools - Screen sizes tested widths: Galaxy Fold(280px) | Moto 4G(360px) | Pixel 2(411px) | iPhone 6/7/8(375px) | iPad(768px) | iPad Pro(1024px) | Surface Duo(540px) | 
+* DevTools - Screen sizes tested widths: Galaxy Fold(280px) | Moto 4G(360px) | Pixel 2(411px) | iPhone 6/7/8(375px) | iPad(768px) | iPad Pro(1024px) | Surface Duo(540px) | And responsive option  | 
 * Browsers Used - Opera | Google chrome | Firefox | Safari on iPhone
 * Physical Devices tested on : Samsung a70 | Samsung a20e | iPhone 7 | Huawei p20
 * [Auto-Fixer](https://autoprefixer.github.io/)
