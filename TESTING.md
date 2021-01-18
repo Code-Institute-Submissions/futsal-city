@@ -3,7 +3,7 @@
 ### Navbar & Header
 * Clicked club logo and confirmed it went back to home back from other pages.
 * Clicked hamburger menu button, confirmed dropdown menu appeared showing other pages to navigate to.
-* Clicked on links in hamburger dropdown menu and confirmed links went to the correct respective pages. Such as when on home page and clicking on Season 20/21 from the menu that respective page would load with all the relevent content.
+* Clicked on links in hamburger dropdown menu and confirmed links went to the correct respective pages. Such as when on home page and clicking on Season 20/21 from the menu that respective page would load with all the relevant content.
 
 ### All alt links on live site (External & Internal)
 #### External
@@ -27,7 +27,7 @@ All internal links load the required page without opening a new tab in the brows
 * Confirmed that both Captains Comments and Managers Comments are scrollable on smaller devices.
 
 ### Body Contact Page
-* Confirmed that when a either "Full Name", "Email" and "Type your message here" are not filled in that an error message shows up for the relevent section of form say, "Please fill in this field"
+* Confirmed that when a either "Full Name", "Email" and "Type your message here" are not filled in that an error message shows up for the relevant section of form say, "Please fill in this field"
 * Confirmed when submit message button is clicked the page reloads and the fields are left empty again. 
 
 # Responsive Pages
@@ -49,7 +49,7 @@ For the Season 20/21 page the first element is very similar to the first element
 
 ## Responsive Pages Testing
 * DevTools - Screen sizes tested widths: Galaxy Fold(280px) | Moto 4G(360px) | Pixel 2(411px) | iPhone 6/7/8(375px) | iPad(768px) | iPad Pro(1024px) | Surface Duo(540px) | 
-* Browsers Used - Opera | Google chrome | Firefox | Safari on iphone
+* Browsers Used - Opera | Google chrome | Firefox | Safari on iPhone
 * Physical Devices tested on : Samsung a70 | Samsung a20e | iPhone 7 | Huawei p20
 * [Auto-Fixer](https://autoprefixer.github.io/)
 
