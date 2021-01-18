@@ -51,6 +51,7 @@ For the Season 20/21 page the first element is very similar to the first element
 * DevTools - Screen sizes tested widths: Galaxy Fold(280px) | Moto 4G(360px) | Pixel 2(411px) | iPhone 6/7/8(375px) | iPad(768px) | iPad Pro(1024px) | Surface Duo(540px) | 
 * Browsers Used - Opera | Google chrome | Firefox | Safari on iphone
 * Physical Devices tested on : Samsung a70 | Samsung a20e | iPhone 7 | Huawei p20
+* [Auto-Fixer](https://autoprefixer.github.io/)
 
 ### Moto 4G
 
@@ -162,4 +163,3 @@ Adding rel="noopener" or rel="noreferrer" to your target="_blank" links avoids t
 
 By adding a better description to the link text helps the search engine better understand what the link is for. This also improves the appearance of the site for visitors as they know what the link goes to. 
 
-[Auto-Fixer](https://autoprefixer.github.io/)
