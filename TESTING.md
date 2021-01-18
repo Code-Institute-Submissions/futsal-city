@@ -7,7 +7,7 @@
 
 ### All alt links on live site (External & Internal)
 #### External
-* Clicked all external alt links and confirmed that opened in a new tab in browser
+Clicked all external alt links and confirmed that opened in a new tab in browser
 1. Old trafford (Home page)
 1. Further information about statement (Home page)
 1. All location links for social events (Home page)
@@ -151,10 +151,11 @@ When using lighthouse i was able to see that my image file sizes were pretty lar
 ![Lighthouse mobile 'a' links](assets/testing-images/lighthouse-mobile-a-links.JPG) ![Lighthouse mobile 'a' links passed](assets/testing-images/lighthouse-mobile-a-links-passed.JPG)
 Adding rel-noreffer to the 'a' tags for links help to add to the security of the site. As stated on the google devs website, "When you link to a page on another site using the target="_blank" attribute, you can expose your site to performance and security issues:
 
-The other page may run on the same process as your page. If the other page is running a lot of JavaScript, your page's performance may suffer.
+'The other page may run on the same process as your page. If the other page is running a lot of JavaScript, your page's performance may suffer.
 The other page can access your window object with the window.opener property. This may allow the other page to redirect your page to a malicious URL.
-Adding rel="noopener" or rel="noreferrer" to your target="_blank" links avoids these issues." Improving the sites performance and security is always important. And by improving security site visitors will be safer and the site will be less susceptible to malicious redirects when clicked.
+Adding rel="noopener" or rel="noreferrer" to your target="_blank" links avoids these issues." Improving the sites performance and security is always important. And by improving security site visitors will be safer and the site will be less susceptible to malicious redirects when clicked.'
 
+Paraphrased from [Google Webdev](https://web.dev/external-anchors-use-rel-noopener/)
 ## Site SEO
 ![index.html mobile seo](assets/testing-images/index-html-lighthouse-mobile-seo.JPG) ![index.html mobile seo passed](assets/testing-images/index-html-lighthouse-mobile-seo-passed.JPG)
 
